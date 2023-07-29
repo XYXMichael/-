@@ -1,0 +1,31 @@
+<cu-custom bgColor="linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%)" isBack="{{true}}">
+  <view slot="backText"> 返回</view>
+  <view slot="content">考勤记录</view>
+</cu-custom>
+<view class="header">
+  <view class="title">
+    缺勤情况
+  </view>
+  <view class="Termpick">
+    <picker mode="selector" bindchange="changeTerm" range="{{list}}" range-key="termName" value="{{termIndex}}">
+      选择学期
+      <text class="cuIcon-unfold"></text>
+    </picker>
+  </view>
+</view>
+<view class="attendancelist">
+  <view class="list-title">
+    {{list[termIndex].termName}}
+  </view>
+  <view class="list-items" wx:for="{{list[termIndex].attendanceList}}" wx:key="index">
+    <view class="list-item">
+      <view class="list-first">
+        <view class="date">{{list[termIndex].attendanceList[index].date}}</view>
+        <view class="classroom">教室：{{list[termIndex].attendanceList[index].classroom}}</view>
+        <view class="section">{{list[termIndex].attendanceList[index].section}}</view>
+      </view>
+      <view class="teacher">{{list[termIndex].attendanceList[index].teacher}}</view>
+      <view class="reason{{list[termIndex].attendanceList[index].reason === '旷课'?'active':''}}" >原因：{{list[termIndex].attendanceList[index].reason}}</view>
+    </view>
+  </view>
+</view>

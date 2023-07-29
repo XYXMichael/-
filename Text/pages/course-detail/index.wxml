@@ -1,0 +1,18 @@
+<cu-custom bgColor="bg-white" isBack="{{true}}">
+  <view slot="content">课程详情</view>
+</cu-custom>
+<view class="container">
+  <view class="info-box">
+    <view class="course-title">
+      {{info.name}}
+    </view>
+    <view class="info-item" wx:for="{{infoRef}}" wx:key>
+      <view class="info-item_key">
+        {{item.title}}
+      </view>
+      <view class="info-item_val">
+        {{info[item.key]}}
+      </view>
+    </view>
+  </view>
+</view>

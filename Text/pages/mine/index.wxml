@@ -1,0 +1,33 @@
+<cu-custom bgColor="bg-white" >
+  <view slot="content">首页</view>
+</cu-custom>
+<view class="top">
+			<view class="center">
+				<view class="center_top">
+					<view class="center_img" >
+						<open-data type="userAvatarUrl" class="user_head"></open-data>
+					</view>
+				</view>
+			</view>
+      <view class="Mytext">个人用户</view>
+			<image src='/image/download/wave.gif' mode='scaleToFill' class='gif-wave'></image>
+		</view>
+<view class="MINE">
+  <view class="class">
+    <image src="/image/download/user.png" mode="aspectFill" class="class-image"/>
+    <text>我的专业班级</text>
+    <image src="/image/download/right-arrow.png" mode="aspectFill" class="right"/>
+  </view>
+  <view class="score">
+    <image src="/image/download/notepad.png" mode="aspectFill" class="score-image"/>
+    <text>我的成绩分析</text>
+    <image src="/image/download/right-arrow.png" mode="aspectFill" class="right"/>
+  </view>
+  <view class="run">
+    <image src="/image/download/settings.png" mode="aspectFill" class="run-image"/>
+    <text>退出账号</text>
+    <image src="/image/download/right-arrow.png" mode="aspectFill" class="run-right"/>
+  </view>
+</view>
+
+

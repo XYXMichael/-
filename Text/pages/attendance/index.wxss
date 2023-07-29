@@ -1,0 +1,85 @@
+page{
+  background: linear-gradient(220.55deg, #8FFF85 0%, #39A0FF 100%);
+}
+.title{
+  padding: 20rpx 20rpx;
+  width: 250rpx;
+  font-size: 50rpx;
+  font-style: italic;
+  font-family: '华文新魏';
+  font-weight: bold;
+  color: #310058;
+}
+.header{
+  margin-top: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Termpick{
+  padding: 20rpx 20rpx;
+  font-size: 45rpx;
+  font-weight: bold;
+  font-family: '华文新魏';
+  border-radius: 20rpx;
+  background:bisque; 
+  box-shadow: 0rpx 0rpx 24rpx -4rpx rgba(0, 0, 0, 0.52);
+  height: 100rpx;
+}
+.attendancelist{
+  margin-top: 10rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  padding: 20rpx 20rpx;
+  border-radius: 24rpx;
+  box-shadow: 0 0 24rpx -4rpx rgba(0, 0, 0, 0.82);
+  background-color: rgb(253, 249, 234);
+}
+.list-title{
+  font-size: 40rpx;
+  font-weight: 600;
+  color: #555555;
+  text-align: center;
+}
+.list-item{
+  display: flex;
+  border-radius: 20rpx;
+  padding: 10rpx 10rpx;
+  background: rgb(160, 250, 216);
+  margin: 10rpx 10rpx;
+  justify-content:space-between;
+}
+.list-first{
+  font-size: 32rpx;
+  
+}
+.date{
+  padding:10rpx;
+}
+.classroom{
+  padding: 10rpx;
+}
+.section{
+  padding: 10rpx;
+}
+.teacher{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+.reason{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+}
+.reasonactive{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32rpx;
+  font-weight: 600;
+  color: crimson;
+}
+
